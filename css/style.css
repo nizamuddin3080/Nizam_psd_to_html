@@ -133,11 +133,14 @@ Slider Image
 #slider_area .slider_text a:hover{
 	color: #000;
 	background: #565966;	
-
-
 }
 
-
+#slider .owl-dot{
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+}
 
 
 

@@ -95,6 +95,46 @@ Slider Image
 	left: 0;
 	content: ''; 
 	opacity: 0.5;
+	z-index: 9;
+}
+
+#slider_area .slider_text{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 99;
+	text-align: center;
+}
+#slider_area .slider_text h4{
+	color: #fff;
+	font-size: 45px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#slider_area .slider_text p{
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+#slider_area .slider_text a{
+	background: #383c4b;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 10px 25px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#slider_area .slider_text a:hover{
+	color: #000;
+	background: #565966;	
+
+
 }
 
 

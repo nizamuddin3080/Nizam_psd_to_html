@@ -262,11 +262,98 @@ About Us Style
 #service_area .col-md-12 h2.title{
 	color: #df4a43;
 }
+
 #service_area .col-md-12 p{
 	color: #6f7478;
 	font-size: 15px;
 	font-weight: 400;
 }
+
+#service_area .col-md-3 i{
+	border: 5px solid #c0c0c0;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 15px;
+    padding-top: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #df4a43;
+	transition: 0.5s;
+}
+
+#service_area .col-md-3 h2.title{
+	font-size: 18px;
+}
+
+#service_area .col-md-3 h2.title a{
+	color: #262626;
+	text-decoration: none;
+}
+
+#service_area .col-md-3 p{
+	color: #262626;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+#service_area .col-md-3:hover i{
+	background: #02cbf9;
+	border: 5px solid #c0c0c0;
+    color: #fff;
+}
+
+#service_area .col-md-3:hover h2.title a{
+	color: #02cbf9;
+}
+
+/*
+	Courses Area
+*/
+
+#courses_area{
+	width: 100%;
+	overflow: hidden;
+	padding: 45px 0;
+	background: #f6f6f6;
+}
+
+#courses_area .col-md-12{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#courses_area .col-md-12 h2.title{
+	color: #df4a43;
+}
+
+#courses_area .col-md-12 p{
+	color: #7a7c82;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+#courses_area .col-md-4{
+		
+}
+
+#courses_area .col-md-4 img{
+	border: 1px solid #d8d8d9;
+}
+
+#courses_area .child_course{
+	background: #fff;
+	padding: 15px 10px;	
+}
+
+
 	
+
+
+
+
+
+
+
 
 

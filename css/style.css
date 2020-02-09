@@ -334,17 +334,36 @@ About Us Style
 }
 
 #courses_area .col-md-4{
-		
+	
 }
 
 #courses_area .col-md-4 img{
-	border: 1px solid #d8d8d9;
+	width: 349px;
 }
 
 #courses_area .child_course{
-	background: #fff;
-	padding: 15px 10px;	
+	border: 1px solid #d8d8d9;
+		
 }
+
+#courses_area .course_details{
+	background: #fff;
+	padding: 15px 20px;
+	
+}
+
+#courses_area .course_details h3{
+	
+}
+
+#courses_area .course_details p{
+		
+}
+
+#courses_area .course_details a{
+			
+}
+
 
 
 	

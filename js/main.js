@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#course_main").owlCarousel({
-	  items:1,
+	  items:3,
 	  autoplay:2000,
 	  loop:true,
   });

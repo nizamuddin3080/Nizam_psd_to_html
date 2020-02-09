@@ -349,7 +349,11 @@ About Us Style
 #courses_area .course_details{
 	background: #fff;
 	padding: 15px 20px;
-	
+	text-align: left;	
+}
+
+#courses_area .item{
+	margin: 0 10px;	
 }
 
 #courses_area .course_details h3{

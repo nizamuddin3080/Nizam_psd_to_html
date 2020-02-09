@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
 
 a{
 	text-decoration: none;
-	transition: 0.5;
+	transition: 0.5s;
 }
 
 p{
@@ -353,16 +353,47 @@ About Us Style
 }
 
 #courses_area .course_details h3{
-	
+	font-size: 18px;
+	font-weight: 700;
+	color: #df4a43;
+}
+
+#courses_area .course_details h4{
+	font-size: 12px;
+	font-weight: 400;
+	color: #afb0b4;
 }
 
 #courses_area .course_details p{
-		
+	color: #7a7c82;
+	font-size: 13px;
+	font-weight: 400;
 }
 
 #courses_area .course_details a{
-			
+	color: #df4a43;
+	text-decoration: none;
+	margin-bottom: 10px;
 }
+
+#courses_area .course_details a:hover{
+	color: #000;
+}
+
+#courses_area .course_details a.readmore{
+	border: 1px solid #df4a43;
+    display: inline-block;
+    padding: 8px 25px;
+    border-radius: 3px;
+	text-decoration: none;
+}
+
+#courses_area .course_details a.readmore:hover{
+	background: #df4a43;
+	color: #fff;
+}
+
+
 
 
 

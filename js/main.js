@@ -5,3 +5,11 @@ $(document).ready(function(){
 	  loop:true,
   });
 });
+
+$(document).ready(function(){
+  $("#course_main").owlCarousel({
+	  items:1,
+	  autoplay:2000,
+	  loop:true,
+  });
+});

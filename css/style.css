@@ -426,7 +426,20 @@ About Us Style
 
 
 #footer_area{
-	
+	width: 100%;
+	overflow: hidden;
+}
+
+#footer_area .footer_area{
+	background: #2c2f3c;
+	padding: 45px 0;
+	color: #fff;
+}
+
+#footer_area .child_footer{
+	background: #2c2f3c;
+	padding: 45px 0;
+	color: #fff;
 }
 
 

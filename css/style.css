@@ -399,6 +399,29 @@ About Us Style
 
 
 
+#courses_area .owl-dots{
+  margin-top: 20px;
+}
+
+#courses_area .owl-dot span{
+	width: 30px;
+    height: 12px;
+    background: none;
+	border: 1px solid #f1ce44;
+	border-radius: 0;
+	transition: 0.5s;
+}
+
+#courses_area .owl-dot.active span{
+    background: #f1ce44;
+}
+
+#courses_area .owl-dot:hover span{
+    background: #f1ce44;
+}
+
+
+
 
 
 	

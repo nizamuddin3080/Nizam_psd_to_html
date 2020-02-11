@@ -431,24 +431,105 @@ About Us Style
 }
 
 #footer_area .footer_area{
+	width: 100%;
+	overflow: hidden;
 	background: #2c2f3c;
-	padding: 45px 0;
+	padding: 45px 0 25px;
 	color: #fff;
 }
 
 #footer_area .child_footer{
-	background: #2c2f3c;
-	padding: 45px 0;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+#footer_area .child_footer h3.title{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#footer_area .child_footer p{
+	color: #cbcbcd;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+#footer_area .child_footer i{
+	color: #6f7478;
+	font-size: 15px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#footer_area .child_footer ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+
+#footer_area .child_footer ul li{
+	display: block;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#footer_area .child_footer ul li img{
+	float: left;
+	margin-right: 10px;
+}
+
+#footer_area .child_footer ul li a{
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	text-decoration: none;
+	
+}
+
+#footer_area .child_footer ul li span, #footer_area .child_footer ul li strong{
+	display: block;
+	color: #cbcbcd;
+	font-size: 12px;
+	font-weight: 400;
+	margin: 3px 0;
+}
+
+#footer_area .child_footer ul li strong a{
+	color: #02cdf9;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+#footer_area .tagcloud{
+	width: 100%;
+	overflow: hidden;
+}
+
+#footer_area .tagcloud a{
+	background: #252833;
+	color: #a9a9ab;
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 3px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#footer_area .tagcloud a:hover{
+	background: #02cdf9;
 	color: #fff;
 }
 
-
-
-
-
+#footer_area .tagcloud ul.social{
+	text-align: left;
 	
-
-
+}
 
 
 

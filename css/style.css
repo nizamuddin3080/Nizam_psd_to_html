@@ -563,5 +563,48 @@ About Us Style
 	color: #fff;
 }
 
+#footer_area .copy_right_area {
+    width: 100%;
+    overflow: hidden;
+    background: #262934;
+    padding: 20px 0;
+    color: #fff;
+}
+
+#footer_area .copy_right_area p{
+    color: #cbcbcd;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+#footer_area .copy_right_area p a{
+    text-decoration: none;
+	color: #02cdf9;
+}
+
+#footer_area .copy_right_area ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+}
+
+#footer_area .copy_right_area ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#footer_area .copy_right_area ul li a{
+    display: block;
+    text-decoration: none;
+	color: #6f7478;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#footer_area .copy_right_area ul li a:hover{
+	color: #02cdf9;
+}
 
 

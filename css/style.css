@@ -108,6 +108,12 @@ h2.title::after{
 	color: #fcfcfc;
 }
 
+
+.dropdown .dropdown-menu a.dropdown-item{
+	padding: 10px 25px!important;
+}
+
+
 /*
 Slider Image
 */
